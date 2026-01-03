@@ -68,36 +68,134 @@ header{
     margin-top: 30px;
 }
 .ios{
+    background-color: var(--primaryclrgreen);
+    color: white;
     padding: 15px 25px;
-    border-radius: 5px;
-    font-weight: 600;
+    border-radius: 25px;
+    /* font-weight: 600; */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    /* -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px; */
 }   
 .mac{
     background-color: var(--primaryclrblue);
+        color: white;
     padding: 15px 25px;
-    border-radius: 5px;
-    font-weight: 600;
+    border-radius: 25px;
+    /* font-weight: 600; */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    /* -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px; */
 }   
+.snippet{
+    margin-top: 100px;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.desktop{
+   
+    display: flex;
+   
+    justify-content: center;
+}
+.desktopimg{
+    flex:1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.computer{
+   max-width:750px;
+    height: 600px;
+    margin-left: -300px;
+}
+.desktopfeatures{
+    flex:1;
+    margin-left: 75px;
+    margin-top: 65px;
+    margin-right: 25px;
+}
+.dfeature{
+    margin-bottom: 60px;
+}
+.tablet{
+    
+    justify-content: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 80px;
+}
 
+.tsnippet{
+    text-align: center;
+    padding: 0px 150px; 
+}
+
+.featurecard{
+    display: flex;
+    justify-content: center;
+   
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.feature{
+    flex: 1;
+
+    text-align: center;
+    max-width: 350px;
+}
+.featurelogo
+{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.logos{
+    display: flex;
+    width: 750px;
+    height: 100px;
+    gap: 80px;
+    align-items: center;
+
+}
 footer{
     background-color: hsl(210, 46%, 95%);
     padding: 60px 20px;
     margin-top: 80px;
     text-align: center;
- 
 }
+
+.installbottom{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 .logofooter{
     flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
+    
 }
