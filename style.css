@@ -1,0 +1,103 @@
+:root{
+
+--primaryclrgreen: hsl(171, 66%, 44%);
+--primaryclrblue: hsl(233, 100%, 69%);
+
+--neutralclrGray700: hsl(210, 10%, 33%);
+--neutralclrGray500: hsl(201, 11%, 66%);
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: var(--neutralclrGray500);
+    line-height: 1.6;
+   
+}
+
+H1, h2, h3, h4, h5, h6{
+    color: var(--neutralclrGray700);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+header{
+     background-image: url(/images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;   
+        padding: 60px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.logo{
+    width: 150px;
+}
+.card{
+    max-width: 1110px;
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clipboard{
+    text-align: center;
+    max-width: 640px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.ios{
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}   
+.mac{
+    background-color: var(--primaryclrblue);
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}   
+
+footer{
+    background-color: hsl(210, 46%, 95%);
+    padding: 60px 20px;
+    margin-top: 80px;
+    text-align: center;
+ 
+}
+.logofooter{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
